@@ -1,7 +1,7 @@
 # Nginx Proxy with self-signed certificate [![Docker Stars](https://img.shields.io/docker/stars/foxylion/nginx-self-signed-https.svg?style=flat-square)](https://hub.docker.com/r/foxylion/nginx-self-signed-https/) [![Docker Pulls](https://img.shields.io/docker/pulls/foxylion/nginx-self-signed-https.svg?style=flat-square)](https://hub.docker.com/r/foxylion/nginx-self-signed-https/)
 
 This is a small docker image which can be used as a reverse proxy before your
-local running service. It acts as a HTTP terminating proxy.
+local running service. It acts as a HTTP/2 terminating proxy.
 
 ## Usage
 
