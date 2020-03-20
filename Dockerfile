@@ -7,5 +7,6 @@ COPY run.sh /run.sh
 
 ENV REMOTE_URL="http://localhost:8080/"
 ENV PROXY_BUFFERING="on"
+ENV TLS_0RTT="off"
 
 CMD ["/run.sh"]
