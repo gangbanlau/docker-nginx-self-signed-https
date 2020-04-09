@@ -8,7 +8,7 @@ local running service. It acts as a HTTP/2 TLS 1.3 terminating proxy.
 ```bash
 docker build -t someone/nginx-self-signed-http2:1.16 .
 docker run -d --name app-roxy --net host \
-           -e REMOTE_URL=http://127.0.0.1:8080 -e PROXY_BUFFERING=off -e TLS_0RTT=on \
+           -e BACKEND=127.0.0.1:8080 -e PROXY_BUFFERING=off -e TLS_0RTT=on \
            someone/nginx-self-signed-http2:1.16
 ```
 
